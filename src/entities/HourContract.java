@@ -32,7 +32,16 @@ public class HourContract {
         this.hour = hour;
     }
 
-    private double totalValue = valuePerHour * hour;
 
+    public Date getDate() {
+        return date;
+    }
 
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public double totalValue() {
+        return valuePerHour * hour;
+    }
 }
