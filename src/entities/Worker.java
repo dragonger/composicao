@@ -69,8 +69,11 @@ public class Worker {
     }
 
     public double income(int year, int month) {
+
         double sum = baseSalary;
+
         Calendar calendar = Calendar.getInstance();
+
         for (HourContract c : contracts) {
 
             calendar.setTime(c.getDate());
