@@ -47,7 +47,7 @@ public class Main {
 
             HourContract contract = new HourContract(contractDate, valuePerHour, hours);
             worker.addContract(contract);
-
+kkkkkk
         }
 
         System.out.println("Enter month and year to calculate income (MM/YYYY): ");
