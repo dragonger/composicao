@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws ParseException {
+
         Scanner sc = new Scanner(System.in);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -40,7 +41,7 @@ public class Main {
 
             System.out.println("Value per hour:");
             double valuePerHour = sc.nextDouble();
-            
+
             System.out.println("Duration (hours):");
             int hours = sc.nextInt();
 
